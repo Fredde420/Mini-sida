@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-content: flex-start;
+  width: 100%;
+}
+
+.BildHeader {
+  width: 255px;
+  height: 77px;
+  display: flex;
+  align-content: center;
+  display: block;
+}
+
+.meny {
+  background-color: rgb(59, 59, 59);
+  height: 77px;
+}
+
+.meny-item {
+  margin-left: 10%;
+}
+
+@media (max-width: 600px) {
+  .meny {
+    width: 100%;
+  }
+}
